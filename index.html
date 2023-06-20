@@ -5,30 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Portfólio</title>
     <link rel="stylesheet" href="style.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
 </head>
      <body>  
-         <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Sobre Mim</a></li>
-                <li><a href="projetos.html">Projetos</a></li>
-                <li><a href="contato.html">Contatos</a></li>
-            </ul>
-         </nav>
-          <div class="banner">
-              <h1 class="titulo">Olá! Eu Sou a Rosicleide</h1>  
-              <img src="imagens/Group 3.png" alt="Banner" width="100%" height="500" frameborder="0" style="border:0;">    
-        </div>
+        <header>
+           <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre Mim</a></li>
+                    <li><a href="projetos.html">Projetos</a></li>
+                    <li><a href="#contato">Contatos</a></li>
+                </ul>
+           </nav>
+                <div class="banner">
+                    <h1 class="titulo">Olá! Eu Sou a Rosicleide</h1>  
+                    <img src="imagens/Group 3.png" alt="Banner" width="100%" height="80%" frameborder="0" style="border:0;">    
+                </div>
         </header>
     
                 <main>                 
-                    <article>
+                    <article id="sobre">
                         <div class="titulo-principal">
-                        <h2 class="titulo-principal">Sobre Mim</h2>
-                        <div>
-                       <img src="imagens/Rosi.jpg" alt="Rosicleide" class="rosi">
-                         <p class="sobre-mim">"Olá! 
+                         <h2 class="titulo-principal">Sobre Mim</h2>
+                        <div class="conteudo-sobre">
+                         <img src="imagens/Rosi.jpg" alt="Rosicleide" class="rosi">
+                        <p class="sobre-mim">Olá! 
                             Sou a <strong>Rosicleide</strong>, uma desenvolvedora apaixonada por criar soluções digitais criativas e funcionais. 
                             Meu objetivo é fornecer soluções personalizadas e eficientes para atender às necessidades únicas de 
                             cada projeto. Trabalho com HTML, CSS e JavaScript, estou aprendendo PHP
@@ -40,16 +42,19 @@
                             Neste portfólio, você encontrará uma seleção dos meus projetos mais recentes. Cada um deles 
                             representa um desafio único e mostra meu estilo de desenvolvimento limpo, eficiente e  orientado 
                             para resultados. Fique à vontade para explorar os projetos e ficarei feliz em responder a quaisquer 
-                            perguntas ou fornecer mais informações sobre eles.Se você está procurando um desenvolvedora 
+                            perguntas ou fornecer mais informações sobre eles.<br>
+                            Se você está procurando um desenvolvedora 
                             comprometida em transformar suas ideias em realidade, estou pronta para ajudar. Entre em contato 
                             comigo para discutirmos suas necessidades e como podemos  trabalhar juntos para alcançar seus 
                             objetivos digitais. Agradeço por visitar meu portfólio e espero ter a oportunidade de colaborar 
                             com você em breve!
-                         </p>
-                </article>
-                <section class="ferramentas">
-                    <h2>Linguagens e Ferramentas que já usei</h2>   
-                    <div class="figuras">
+                        </p>
+                    </article>
+
+                    <h2 class="linguagens">Linguagens e Ferramentas que já usei</h2>   
+
+                     <section class="ferramentas">
+                        <div class="figuras">
                         <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">
                         <img src="imagens/html.png" alt="HTML"></a>
                         <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS">
@@ -82,18 +87,17 @@
                     </div>
                </section>
 
-                <article>
+                <article  class="carreira">
                     <div class="tragetoria"><h3>Sobre a minha carreira</h3></div>
                         <p class="sobre-mim">
-                        Sou formada em <strong>Gestão em Recursos Humanos pela Estácio UniRadial e Pós Graduada Em Gestão de 
+                        Sou formada em <strong>Gestão em Recursos Humanos pela Estácio UniRadial e Pós Graduada em Gestão de 
                         Pessoas pela PucRS</strong>. Sou uma profissional apaixonada por desafios e pela constante busca por 
                         crescimento pessoal e profissional. Após obter uma formação em Gestão em Recursos Humanos, 
                         decidi embarcar em uma emocionante jornada de transição de carreira para a área de programação.
                         Ao longo dos anos, pude desenvolver habilidades valiosas em recrutamento, treinamento e desenvolvimento 
-                        de talentos, mas senti que algo estava faltando em minha trajetória profissional. Foi quando me deparei 
-                        com o notável crescimento da área de programação e a revolução tecnológica que ela estava impulsionando
-                        em diversos setores. Com uma curiosidade crescente e uma paixão pela tecnologia, decidi enfrentar o 
-                        desafio de aprender a programar. Iniciei minha jornada estudando por conta própria, mergulhando em cursos 
+                        de talentos, mas senti que algo estava faltando em minha trajetória profissional. Com uma curiosidade crescente
+                        e uma paixão pela tecnologia, decidi enfrentar o desafio de aprender a programar. Iniciei minha jornada estudando
+                        por conta própria, mergulhando em cursos 
                         online, tutoriais e materiais educacionais. Investi horas preciosas após o trabalho para aprender novas 
                         linguagens de programação, conceitos de desenvolvimento web e lógica de programação. Enquanto avançava 
                         em meus estudos, percebi a importância de obter uma educação formal para consolidar meus conhecimentos 
@@ -106,32 +110,32 @@
                         Hoje, estou entusiasmada para dar o próximo passo em minha carreira e encontrar o emprego que me permitirá
                         colocar em prática meus conhecimentos e contribuir para projetos desafiadores. Estou ciente de que cada 
                         etapa dessa transição requer esforço, dedicação e paciência. Estou determinada a aproveitar todas as 
-                        oportunidades que surgirem e a continuar aprendendo e evoluindo na área de programação. 
-                        </p>                        
+                        oportunidades que surgirem e a continuar aprendendo e evoluindo na área de programação.</p>                        
                 </article>
 
             <section class="ferramentas"> 
-                <h3>Formação Acadêmica</h3>  </section>
+                <h3>Formação Acadêmica</h3>
 
-                <div class="formação">              
-                  <img src="imagens/Pucrs.PNG" alt="PucRS" width="388" height="388">
-                   <h4>Pós Graduação em Gestão de Pessoas</h4>
-                    <p>2022 - PucRS</p>
-                 <img src="imagens/Estacio.jpg" alt="Estacio de Sá" width="388" height="388">
+                <div class="formacao">  
+                  <img src="imagens/Estacio.jpg" alt="Estacio de Sá">
                   <h4>Gestão em Recursos Humanos</h4>
-                  <p>2010 - Estácio UniRadial</p>
+                  <p>2010 - Estácio UniRadial</p>            
+                  <img src="imagens/Pucrs.PNG" alt="PucRS">
+                   <h4>Pós Graduação em Gestão de Pessoas</h4>
+                    <p>2022 - PUCRS</p>                 
                 </div> 
-          
+            </section>
 
-            <section>
-                <h3>Cursos</h3>
-                 <img src="imagens/senac.png" alt="Senac">
-                  <h4>Programação Web</h4>
-                   <p>2023 - Senai</p>
-                
-                <img src="imagens/SENAI.png" alt="Senai">
-                  <h4>Front-End</h4>
-                   <p>2023 - Senai</p>                
+            <section class="ferramentas">
+                <h3>Cursos Livre</h3>
+                <div class="formacao">
+                    <img src="imagens/senac.png" alt="Senac">
+                    <h4>Programação Web</h4>
+                    <p>2023 - Senai</p>                
+                    <img src="imagens/SENAI.png" alt="Senai">
+                    <h4>Front-End</h4>
+                    <p>2023 - Senai</p> 
+                </div>               
             </section>
 
         <section>
@@ -145,7 +149,7 @@
         </section>
         </main>
 
-        <footer> 
+        <footer id="contato"> 
             <a href="https://github.com/Xistulino">
             <img src="imagens/github.png" alt="GitHub"></a>
             <a href="https://www.linkedin.com/in/rosicleide-xistulino/">
